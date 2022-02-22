@@ -64,7 +64,6 @@ export const Icon = styled(FaPlusSquare)`
 export const Div = styled.div`
   margin: 1.5rem;
   width: 20%;
-  /* height: 44px; */
   position: relative;
   cursor: pointer;
   appearance: none;
@@ -222,14 +221,7 @@ export const BtnTrash = styled.button`
   border: none;
   padding: 1rem;
   cursor: pointer;
-  /* font-size: 1rem; */
   height: 48px;
-
-  @media screen and (max-width: 800px) {
-    /* font-size: .55rem; */
-
-}
-
 `;
 
 export const IconTrash = styled(FaTrash)`
